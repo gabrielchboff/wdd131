@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template: auto 1fr auto / 300px 1fr auto;
+    height: 100vh;
+}
+p {
+    text-align: center;
+}
+
+header {
+    background: red;
+    padding: 3rem;
+    grid-column: 1 / 4;
+  }
+  
+  .left-sidebar {
+    background: blue;
+    grid-column: 1 / 2;
+  }
+  
+  main {
+    background: green;
+    grid-column: 2 / 3;
+  }
+  
+  .right-sidebar {
+    background: yellow;
+    grid-column: 3 / 4;
+  }
+  
+  footer {
+    background: purple;
+    padding: 3rem;
+    text-align: center;
+    grid-column: 1 / 4;
+  }
+  
+  .left-sidebar,
+  .right-sidebar {
+    padding: 3rem;
+  }
+  
