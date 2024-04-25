@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #181a1b;
+    color: antiquewhite;
+
+}
+
+header, footer {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #561475;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+footer > p {
+    display: block;
+    align-items: center;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header > h1 {
+    background-color: #561475;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    color: antiquewhite;
+    background-color: #7B53AE;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+nav > a, a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    color: antiquewhite;
+    font-size: 1rem;
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+    color:#181a1b;
+    font-size: 1.2rem;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 #561475;
+    transition: 0.3s;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.card > h2 {
+    padding-bottom: 0.5rem;
+    background-color: #561475;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.card > p {
+    text-align: justify;
+    padding: 2rem;
+}
+
+li > a, li > a:link, li > a:visited {
+    text-align: center;
+    text-decoration: none;
+    padding: 4rem;
+    color: antiquewhite;
+    font-size: 2rem;
+
+    
+}
+
+.card > img {
+    width: 40%;
+}
+
+.card > ul {
+    padding: 1rem;
+    text-align: center;
+}
+.card > li {
+    padding: 1rem;
+}
+li > a:hover {
+    text-decoration: underline;
+    color:#561475;
+    font-size: 2.3rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #561475;
+}
+
+ul, ol {
+    list-style-type: none; 
+}
+
+ul > li {
+    padding: 2rem;
+}
