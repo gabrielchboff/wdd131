@@ -1,0 +1,41 @@
+
+
+
+@media screen and (max-width: 940px) {
+    .hamburger-menu {
+        display: inline-block;
+    }
+    
+    .menu-icon {
+        cursor: pointer;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    #menu-toggle:checked + .menu {
+        display: block;
+    }
+
+
+
+}
+
+@media screen and (max-width: 940px) {
+    #homeFigures, #oldFigures, #newFigures, #largeFigures, #smallFigures {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    #homeFigures img, #oldFigures img, #newFigures img, #largeFigures img, #smallFigures img {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+}
