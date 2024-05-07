@@ -3,7 +3,7 @@
 :root {
     --ired: #CD212A;
     --iwhite: #F4F9FF;
-    --igreen: #008C45;
+    --igreen: #01582d;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: var(--igreen);
+    background-color: var(--ired);
     color: var(--iwhite);
     text-align: center;
     padding: 1rem;
@@ -33,6 +33,7 @@ footer {
     font-size: 1.2rem;
     text-align: center;
     color: var(--iwhite);
+    font-weight: bolder;
 }
 
 footer > p {
