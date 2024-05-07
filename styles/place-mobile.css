@@ -1,0 +1,92 @@
+@media screen and (max-width: 939px) {
+    picture > img {
+        width: 100%;
+    }
+        
+    .hero {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .hero-text {
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    .card {
+        background-color: var(--iwhite);
+        text-align: center;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        width: 100%;
+
+    }
+
+    #placeWeather {
+        grid-row: 2;
+        grid-column: 3;
+    
+    }
+
+    .card > div > h2 {
+        background-color: var(--igreen);
+        padding: 1rem;
+        text-align: center;
+        color: var(--iwhite);
+        grid-row: 1;
+        margin-top: 0;
+    }
+
+    .card > div > h2::after{
+        content: "Weather";
+    }
+
+
+    .card > h2 {
+        background-color: var(--igreen);
+        padding: 1rem;
+        text-align: center;
+        color: var(--iwhite);
+        grid-row: 1;
+        margin-top: 0;
+    }
+
+
+    .card > div > img {
+        width: 30%;
+    }
+
+
+    .card > ul {
+        padding: 1rem;
+
+    }
+
+    .card li {
+        list-style: none;
+        padding: 0.3rem;
+        text-align: center;
+
+    }
+
+    .card > img {
+        width: 100%;
+        grid-row: 2;
+        grid-column: 1;
+        
+    }
+
+    .card > ul {
+        padding: 1rem;
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+
+
+}
+
