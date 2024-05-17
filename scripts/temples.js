@@ -108,7 +108,7 @@ const generateFiguresOld = () => {
         img.src = element.imageUrl;
         img.alt = element.templeName;
         const figcaption = document.createElement('figcaption');
-        ul.innerHTML = `<li>Name: ${element.templeName}</li><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
+        ul.innerHTML = `<h1>${element.templeName}</h1><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
 
         figcaption.innerHTML = ul.innerHTML;
         img.loading = 'lazy';
@@ -134,7 +134,7 @@ const generateFiguresNew = () => {
         img.src = element.imageUrl;
         img.alt = element.templeName;
         const figcaption = document.createElement('figcaption');
-        ul.innerHTML = `<li>Name: ${element.templeName}</li><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
+        ul.innerHTML = `<h1>${element.templeName}</h1><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
         figcaption.innerHTML = ul.innerHTML;
         img.loading = 'lazy';
 
@@ -162,7 +162,7 @@ const generateFiguresLarge = () => {
         img.src = element.imageUrl;
         img.alt = element.templeName;
         const figcaption = document.createElement('figcaption');
-        ul.innerHTML = `<li>Name: ${element.templeName}</li><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
+        ul.innerHTML = `<h1>${element.templeName}</h1><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
         figcaption.innerHTML = ul.innerHTML;
         img.loading = 'lazy';
 
@@ -186,7 +186,7 @@ const generateFiguresSmall = () => {
         img.src = element.imageUrl;
         img.alt = element.templeName;
         const figcaption = document.createElement('figcaption');
-        ul.innerHTML = `<li>Name: ${element.templeName}</li><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
+        ul.innerHTML = `<h1>${element.templeName}</h1><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
         figcaption.innerHTML = ul.innerHTML;
         img.loading = 'lazy';
 
@@ -207,7 +207,7 @@ const generateFigures = () => {
         img.alt = element.templeName;
 
         const figcaption = document.createElement('figcaption');
-        ul.innerHTML = `<li>Name: ${element.templeName}</li><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
+        ul.innerHTML = `<h1>${element.templeName}</h1><li>Location: ${element.location}</li><li>Dedicated: ${element.dedicated}</li><li>Area: ${element.area}</li>`
 
         figcaption.innerHTML = ul.innerHTML;
         img.loading = 'lazy';
