@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+.image-column {
+    display: block; /* Display images as block elements */
+    text-align: center; /* Center images horizontally */
+}
+
+.image-column img {
+    display: block; /* Ensure each image takes full width */
+    margin: 10px auto; /* Add margin to space images vertically */
+}
+
+header {
+    text-align: center;
+    display: block;
+}

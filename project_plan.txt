@@ -1,0 +1,7 @@
+A landing page for a software company.
+The project will be a landing page about the 
+Spark. A software company that builds web applications for multiple
+niches. The page content consists of appellative content to
+sell solutions to multiple businesses and show more about Spark.
+The reason is I started a new company with my friends called Spark,
+however we don't have a website, I think that is the moment.
