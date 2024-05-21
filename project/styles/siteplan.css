@@ -1,0 +1,105 @@
+:root{
+    --primary-color: #0c0a09;
+    --secondary-color: #fafaf9;
+    --background-color: #0c0a09;
+    --font-color: #f8fafb;
+    --font-color-2: #0c0a09;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.background {
+    color: var(--background-color);
+}
+
+.background-primary {
+    background-color: var(--primary-color);
+}
+
+.background-secondary {
+    background-color: var(--secondary-color);
+}
+
+.background-background {
+    background-color: var(--background-color);
+}   
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body, main {
+    
+    background-color: var(--background-color);
+    color: var(--font-color);
+    margin: 0;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h5 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+img {
+    text-align: center;
+
+}
+
