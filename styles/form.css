@@ -1,0 +1,113 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+legend {
+    margin-bottom: 8px;
+}
+
+label {
+    margin: 0 0 0.5rem 0;
+}
+
+input, select,
+textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.optional {
+    font-style: italic;
+    color: yellow;
+    padding: 0.5rem;
+
+}
+
+#usefulFeatures{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    padding: 0.5rem;
+}
+
+#usefulFeatures input {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: white;
+    cursor: pointer;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #ffcc00;
+}
+
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.checkbox-list li {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.checkbox-list label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.checkbox-list input[type="checkbox"] + label {
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
