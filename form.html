@@ -26,7 +26,7 @@
     <main>
         <form action="review.html" method="get" id="form">
             <fieldset>
-                <legend for="productName">Product name</legend>
+                <legend>Product name</legend>
                 <label for="productName">Select a product</label>
                 <select name="productName" id="productName" required>
                     <option value="" disabled selected>Select a Product ...</option>
@@ -75,6 +75,11 @@
 
                         <input type="checkbox" id="preference3" name="preferences" value="preference3">
                     </li>
+                    <li>
+                        <label for="preference4">Preference 4</label>
+
+                        <input type="checkbox" id="preference4" name="preferences" value="preference4">
+                    </li>
                 </ul>
             
             </fieldset>
@@ -89,7 +94,7 @@
                 <label for="userName" class="optional">optional</label>
                 <input type="text" id="userName" name="userName" placeholder="Your name...">
             </fieldset>
-            <input type="submit" value="Submit Review">
+            <input type="submit" value="Submit">
         </form>
     </main>
     <footer>
