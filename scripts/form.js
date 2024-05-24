@@ -1,14 +1,54 @@
+
 const generateOptions = () => {
     const select = document.querySelector('select');
 
-    const options = ['Word', 'Excel', 'PowerPoint', 'PowerBI', 'Da Vinci'];
+    const options = [
+        {
+          id: "fc-1888",
+          name: "flux capacitor",
+          averagerating: 4.5
+        },
+        {
+          id: "fc-2050",
+          name: "power laces",
+          averagerating: 4.7
+        },
+        {
+          id: "fs-1987",
+          name: "time circuits",
+          averagerating: 3.5
+        },
+        {
+          id: "ac-2000",
+          name: "low voltage reactor",
+          averagerating: 3.9
+        },
+        {
+          id: "jj-1969",
+          name: "warp equalizer",
+          averagerating: 5.0
+        }
+      ];
     options.forEach(element => {
         const option = document.createElement('option');
-        option.value = element;
-        option.textContent = element;
+        option.value = element.name;
+        option.textContent = element.name;
+        option.id = element.id;
         select.appendChild(option);
     });
 }
+
+const reviewCounter = () => {
+
+    let counter = localStorage.getItem('counter');
+    if (counter === null) {
+        counter = 0;
+    }
+    counter++;
+    localStorage.setItem('counter', counter);
+}
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -26,13 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-document.getElementById('ratingForm').addEventListener('submit', function(event) {
-    const selectedRating = document.querySelector('input[name="rating"]:checked');
-    
-    if (!selectedRating) {
-        alert('Please select a rating.');
-        event.preventDefault(); // Prevent form submission
-    } else {
-        console.log('Selected rating:', selectedRating.value);
-    }
+document.getElementById('form').addEventListener('submit', function(event) {
+    reviewCounter();
 });
