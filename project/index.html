@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A landing page for a software company called Spark.">
+    <meta name="author" content="Gabriel C. Boff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-mobile.css">
+
+    <script src="scripts/particles.min.js" defer></script>
+
+    <script src="scripts/main.js" defer></script>
+
+    
+
+    <title>Spark</title>
+</head>
+<body> 
+    <header>
+        <nav class="flex flex-row background-primary">
+            <div class="grow p-1 px-2">
+                <span>[ SPARK ]</span>
+            </div>
+            <ul class="flex flex-row px-2 p-1">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="secondary h-screen" id="home">
+            <!-- particles.js container --> 
+            <div id="particles-js"></div> 
+            <div class="relative p-1 flex-center flex-column">
+                <img class="logo" src="images/sparklogo.png" alt="spark logo" loading="lazy">
+                <h1>Spark</h1>
+                <h3>Custom Software</h3>
+                <p class="w-40 text-center flex-center flex-column">
+                    Solve your problems through
+                    of our personalized systems
+                    that meet your business and your needs.
+                    Create the ideal system for your business
+                    and start earning money the way
+                    smart and efficient.
+                    Click the button below to find out more.
+                </p>
+                <a class="" data-button="true" href="#contact" id="contactUs">Meet us!</a>
+            </div>
+
+        </section>
+        <section id="about" class="relative p-4 background-primary secondary m-0 flex-column">
+            <h2 >About</h2>
+            <p class="flex-column">Solve your problems today!
+                Spark is focused on developing customized
+                high technology and compatibility. We identify the requirements
+                necessary and we serve small and medium-sized businesses, through studies and
+                analysis, we identify your needs and serve you in a personalized way.</p>
+            <div class="flex flex-row p-4 grow" id="cards">
+                <div class="card primary w-40">
+                    <h4>Custom Systems</h4>
+                    <p>
+                        We serve small and medium-sized businesses
+                        who are looking to obtain greater
+                        profits by organizing your business
+                        with personalized systems.
+                    </p>
+                </div>
+                <div class="card primary w-40">
+                    <h4>Hight Technology</h4>
+                    <p>
+                        We use cutting-edge technologies to
+                        serve all businesses with the best
+                        and the highest technologies available on the market.
+                    </p>
+                </div>
+
+            </div>
+            
+           
+        </section>
+        <section id="services" class="p-4">
+            <h2 class="text-center flex flex-column">Services</h2>
+            <div class="accordions"> 
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" checked="checked" id="accordion-1" />
+                    <label for= "accordion-1">Support 24/7</label>
+                    <div class="accordion-content">
+                        We provide ongoing support for our applications and systems,
+                        always updating and bringing modernity to existing tools
+                        and adding new features.
+                    </div>
+                </div> 
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" id="accordion-2" />
+                    <label for= "accordion-2">Complete and Custom</label>
+                    <div class="accordion-content">
+                        We serve small and medium-sized businesses
+                        who are looking to obtain greater
+                        profits by organizing your business
+                        with personalized web systems, can be
+                        management systems, scheduling and much more.
+                    </div>
+                </div> 
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" id="accordion-3" />
+                    <label for= "accordion-3">Marketing Services</label>
+                    <div class="accordion-content">
+                        We have linked to our services a department specialized in transforming the look of your company, such as:
+                        Paid traffic.
+                        Creation of websites according to your company's image.
+                        Creation of media for you to feed your company's social networks.
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <section class="mt-28 p-4 form-grid background-primary secondary" id="contact">
+            <div class="w-full">
+                <div>
+                    <h2>Contact</h2>
+                    <p class="w-40">We are always happy to serve you!</p>
+                </div>
+                <div class="container background-primary">
+                    
+                    <form action="response.html" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="p-4">
+                <img class="w-80 text-center" src="images/logo.png" alt="logo" class="logo" loading="lazy">
+            </div>
+            
+        </section>
+        
+
+    </main>
+    <footer>
+        <p>
+            &copy; 2024
+            Spark | Gabriel C. Boff 
+        </p>
+    
+    </footer>
+
+    
+</body>
+</html>

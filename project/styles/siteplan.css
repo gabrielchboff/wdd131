@@ -90,8 +90,15 @@ p {
     margin-bottom: 2rem;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 li {
     font-size: 1.2rem;
+    list-style-type: none;
+    padding: 0;
 }
 
 span {
